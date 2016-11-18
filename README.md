@@ -1,7 +1,7 @@
 # DevTools
 
-Dev and Ops Tools
+Development and Ops Tools
 
 ## Development related scripts
 
-
+by @akaak

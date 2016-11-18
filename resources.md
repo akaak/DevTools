@@ -8,7 +8,7 @@
 
 Cron script to run every 10 minutes. Use <http://crontab.guru> for examples for cron and use `crontab` to setup cron.
 
-*/10 * * * * /PATH-TO-SCRIPT/SCRIPT.sh
+    `*/10 * * * * /PATH-TO-SCRIPT/SCRIPT.sh`
 
 The `SCRIPT.sh` would be a shell script with the script to take the website screenshot and output to a file with a timestamp.
 
@@ -17,3 +17,6 @@ The `SCRIPT.sh` would be a shell script with the script to take the website scre
 /usr/local/bin/webkit2png -TF --delay=5 -o /PATH-TO-OUTPUT/FILENAME-`date +%m%d%Y-%H-%M-%S` --ignore-ssl-check http://www.WEBSITE.com
 exit
 ```
+
+----
+*last updated nov 2016 by [@akaak](http://github.com/akaak)
