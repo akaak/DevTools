@@ -18,5 +18,21 @@ The `SCRIPT.sh` would be a shell script with the script to take the website scre
 exit
 ```
 
+### How to rollback git commits
+Related Article: <http://stackoverflow.com/questions/927358/how-to-undo-last-commits-in-git>
+
+Follow these four (4) steps to roll back or undo the latest commit
+
+The commit message does not even get into the git log
+Check the log with `git log` before and after the undo.
+
+```
+git reset --hard HEAD^ 
+git commit -m 'rolling back'
+git log --pretty=oneline
+git push origin master --force
+```
+
+
 ----
 *last updated nov 2016 by [@akaak](http://github.com/akaak)*
