@@ -32,6 +32,8 @@ git commit -m 'rolling back'
 git log --pretty=oneline
 git push origin master --force
 ```
+Check git log in simple (pretty) format
+`git log --pretty=oneline` is useful to see the summary of log in one line. Git's [viewing the commit history](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) has many useful commands.
 
 
 ----
