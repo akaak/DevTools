@@ -37,7 +37,7 @@ Default region name [None]: us-west-2
 Default output format [None]: ENTER
 ```
 
-2. Working with the AWS Storage (S3)
+### 2. Working with the AWS Storage (S3)
 
 - List S3 buckets
 
@@ -54,7 +54,10 @@ upload: ./testfile.txt to s3://aktestdocs/all/testfile.txt
 (awsdev) AKs-MacBook-Pro:s3 ak$ 
 ```
 
-Resources:
+----
+
+RESOURCES:
+
 - <http://cloudacademy.com/blog/aws-cli-10-useful-commands/>
 
 
