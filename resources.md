@@ -35,6 +35,12 @@ git push origin master --force
 Check git log in simple (pretty) format
 `git log --pretty=oneline` is useful to see the summary of log in one line. Git's [viewing the commit history](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) has many useful commands.
 
+### Generate random text text file
+
+Generate a text file with 6 random dictionary words per line with a total of 10 Lines.
+(from <http://www.skorks.com/2010/03/how-to-quickly-generate-a-large-file-on-the-command-line-with-linux/>)
+
+`ruby -e 'a=STDIN.readlines;10.times do;b=[];6.times do; b << a[rand(a.size)].chomp end; puts b.join(" "); end' < /usr/share/dict/words > file.txt`
 
 ----
 *last updated nov 2016 by [@akaak](http://github.com/akaak)*

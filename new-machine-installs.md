@@ -47,4 +47,14 @@ ak ~ $
 ----
 
 
+8. Virtual Env
+Install [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html)
+
+Use `lsvirtualenv` and 	`workon` to use a virtualenv. See the [quickstart](http://virtualenvwrapper.readthedocs.io/en/latest/install.html#quick-start) for more information.
+
+_If you see error installing virtualenvwrapper with pip_ then see this [stackoverflow post](http://stackoverflow.com/questions/32086631/cant-install-virtualenvwrapper-on-osx-10-11-el-capitan) and install individually.
+
+Some errors could be related to Python's [six](https://pythonhosted.org/six/) package dependencies/conflicts.
+
+
 
