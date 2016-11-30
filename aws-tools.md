@@ -6,9 +6,11 @@
 
 - set up User Accounts; Follow [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html?icmpid=docs_iam_console) 
 
-- Set up 
 
-### 1. Install Python SDK
+### 1. Working with SDK
+
+
+*Install Python SDK*
 
 `pip install boto3`
 
