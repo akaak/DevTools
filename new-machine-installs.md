@@ -56,5 +56,18 @@ _If you see error installing virtualenvwrapper with pip_ then see this [stackove
 
 Some errors could be related to Python's [six](https://pythonhosted.org/six/) package dependencies/conflicts.
 
+---
 
+Why doesnt .bashrc run automatically in the Terminal?
+
+See this for an answer: <http://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically>
+
+as one poster wrote, OS X reads in this order:
+
+1. /etc/profile
+2. ~/.bash_profile
+3. ~/.bash_login
+4. ~/.profile
+
+- put source ~/.bashrc in ~/.bash_profile
 
