@@ -56,6 +56,14 @@ _If you see error installing virtualenvwrapper with pip_ then see this [stackove
 
 Some errors could be related to Python's [six](https://pythonhosted.org/six/) package dependencies/conflicts.
 
+For `virtualenvwrapper` to be recognized in the shell environment the following needs to be added to the environment:
+
+```
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+```
+
 ---
 
 Why doesnt .bashrc run automatically in the Terminal?
@@ -69,5 +77,5 @@ as one poster wrote, OS X reads in this order:
 3. ~/.bash_login
 4. ~/.profile
 
-- put source ~/.bashrc in ~/.bash_profile
+- put `source ~/.bashrc` in ~/.bash_profile
 
