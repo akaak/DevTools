@@ -1,7 +1,20 @@
-# DevTools
+Gomix Sample Project
+====================
 
-Development and Ops Tools
+Sample Project
 
-## Development related scripts
+[About Gomix](https://gomix.com/about)
 
-by @akaak
+
+Has back-end,
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env`
+
+and front-end,
+- edit `client.js`, `style.css` and `index.html`
+- drag in `assets`, like images or music, to add them to your project
+
+
+
+[@akaak](https://www.github.com/akaak)
