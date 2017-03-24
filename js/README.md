@@ -18,3 +18,7 @@
 - Redux <http://redux.js.org/> 
 
 - <https://egghead.io/courses/getting-started-with-redux>
+
+- <https://www.udemy.com/react-redux/learn/v4/overview> 
+
+- ELM Language: <https://guide.elm-lang.org/>
