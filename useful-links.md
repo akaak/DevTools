@@ -7,4 +7,4 @@
 
 	- HTTP Status Codes in a ezine: <https://twitter.com/b0rk/status/1145824140462608387> via @b0rk
 
-- <https://mailcatcher.me/> MailCatcher runs a super simple SMTP server which catches any message sent to it to display in a web interface. Use it to read emails while building your apps in a local/Development environment.
+- <https://mailcatcher.me/> _MailCatcher runs a super simple SMTP server which catches any message sent to it to display in a web interface._ Use it to read emails while building your apps in a local/Development environment.
