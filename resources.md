@@ -3,7 +3,16 @@
 ## Serve github files
 For serving static files Amazon S3 is a good solution. In addition, if you have files in github or as a gist then you can not really serve from there because the Content-Type header does not come out the way that the browsers want to see that file. You can get around this issue by serving these files through a service that can recognize the file content type.
 
-Create Git aliases
+- Create Git aliases
+add the following to ''.gitconfig'
+'''
+[alias]
+co = checkout
+ci = commit
+st = status
+add-commit = !git add -A && git commit
+alias = ! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /
+'''
 
 
 [RawGit](https://rawgit.com/) is a service that solves this problem. You can serve github and gist files with proper `Content-Type` header using RawGit. This works for file types such as HTML, JSON, CSS, JavaScript.
