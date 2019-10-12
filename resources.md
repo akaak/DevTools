@@ -3,10 +3,13 @@
 ## Serve github files
 For serving static files Amazon S3 is a good solution. In addition, if you have files in github or as a gist then you can not really serve from there because the Content-Type header does not come out the way that the browsers want to see that file. You can get around this issue by serving these files through a service that can recognize the file content type.
 
+Create Git aliases
+
+
 [RawGit](https://rawgit.com/) is a service that solves this problem. You can serve github and gist files with proper `Content-Type` header using RawGit. This works for file types such as HTML, JSON, CSS, JavaScript.
 
 Try these two examples:
-- Raw github [gist html file](https://gist.githubusercontent.com/akaak/840a8c44a9054a35fcb13198a7d6dc9b/raw/ac3423492386541a280892f711b11197c6f83687/simple-page.html) opens in the browser in raw html format. Try 
+- Raw github [gist html file](https://gist.githubusercontent.com/akaak/840a8c44a9054a35fcb13198a7d6dc9b/raw/ac3423492386541a280892f711b11197c6f83687/simple-page.html) opens in the browser in raw html format. Try
 [here](https://gist.githubusercontent.com/akaak/840a8c44a9054a35fcb13198a7d6dc9b/raw/ac3423492386541a280892f711b11197c6f83687/simple-page.html).
 - Same gist html file hosted [via rawgit](https://cdn.rawgit.com/akaak/840a8c44a9054a35fcb13198a7d6dc9b/raw/6f3b746a534e8f456492568f67ca9acade0372c1/simple-page.html) opens in the browser in rendered form. Try [here](https://cdn.rawgit.com/akaak/840a8c44a9054a35fcb13198a7d6dc9b/raw/6f3b746a534e8f456492568f67ca9acade0372c1/simple-page.html).
 
@@ -31,7 +34,7 @@ This is where <https://rawgit.com/> comes in useful. By running a github file or
 
 #### On a side note, how do you suppress progress meter from `curl`?
 
-You can use the `-s` flag to use the curl in silent mode. This does not display the progress meter - 
+You can use the `-s` flag to use the curl in silent mode. This does not display the progress meter -
 via [stackoverflow post](http://stackoverflow.com/questions/23675967/curl-show-content-type-only)
 
 
@@ -62,7 +65,7 @@ The commit message does not even get into the git log
 Check the log with `git log` before and after the undo.
 
 ```
-git reset --hard HEAD^ 
+git reset --hard HEAD^
 git commit -m 'rolling back'
 git log --pretty=oneline
 git push origin master --force
