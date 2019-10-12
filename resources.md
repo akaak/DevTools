@@ -3,6 +3,11 @@
 ## Serve github files
 For serving static files Amazon S3 is a good solution. In addition, if you have files in github or as a gist then you can not really serve from there because the Content-Type header does not come out the way that the browsers want to see that file. You can get around this issue by serving these files through a service that can recognize the file content type.
 
+Atom Editor: https://atom.io/
+- Atom's Github package works with atom editor: https://github.atom.io/ 
+
+
+
 Create Git aliases - list of aliases
 ```  
   co = checkout
