@@ -4,5 +4,5 @@ Development and Ops Tools
 
 ## Development related scripts
 
-Oct 2019
+Feb 2020
 by @akaak
