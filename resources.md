@@ -1,5 +1,9 @@
 # Resources
 
+# Expose Local urls on the public internet
+
+ngrok exposes local servers behind NATs and firewalls to the public internet over secure tunnels.
+
 ## Serve github files
 For serving static files Amazon S3 is a good solution. In addition, if you have files in github or as a gist then you can not really serve from there because the Content-Type header does not come out the way that the browsers want to see that file. You can get around this issue by serving these files through a service that can recognize the file content type.
 
